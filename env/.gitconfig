@@ -1,0 +1,36 @@
+[core]
+	editor = nvim
+
+[init]
+  defaultBranch = main
+
+[alias]
+	a = add
+	sts = status -sb
+	logger = log --graph --abbrev-commit --decorate --date=relative
+	cm = commit -m
+	ca = commit -a
+	aall = add .
+	d = diff
+	fuck = reset --hard
+
+[pull]
+	rebase = true
+[push]
+	default = current
+	autoSetupRemote = true
+[log]
+	decorate = short
+[user]
+	name = Iago Laguna
+	email = iagolaguna.83@gmail.com
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = false
+[credential "https://github.com"]
+	helper = 
+	helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !gh auth git-credential

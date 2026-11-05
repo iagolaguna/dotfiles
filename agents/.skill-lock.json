@@ -1,0 +1,61 @@
+{
+  "version": 3,
+  "skills": {
+    "computer-use": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "ref": "071747853f5995ee233b36751613f09a60007c2b",
+      "skillPath": "skills/computer-use/SKILL.md",
+      "skillFolderHash": "b59f27370a41225c22127e91da0c91cd2519f217",
+      "installedAt": "2026-09-24T19:44:18.573Z",
+      "updatedAt": "2026-10-21T15:55:51.135Z"
+    },
+    "orca-cli": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orca-cli/SKILL.md",
+      "skillFolderHash": "572f7952ac451a30a9c2451b472a639b125ee584",
+      "installedAt": "2026-09-24T19:44:18.575Z",
+      "updatedAt": "2026-09-24T19:44:18.575Z"
+    },
+    "orchestration": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "ref": "071747853f5995ee233b36751613f09a60007c2b",
+      "skillPath": "skills/orchestration/SKILL.md",
+      "skillFolderHash": "b0cd1d58b0c317cf7c3726fef7e6b1197c405246",
+      "installedAt": "2026-09-24T19:44:18.576Z",
+      "updatedAt": "2026-10-21T15:48:41.336Z"
+    },
+    "human-writing": {
+      "source": "factory-ai/factory-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/factory-ai/factory-plugins.git",
+      "skillPath": "plugins/droid-evolved/skills/human-writing/SKILL.md",
+      "skillFolderHash": "69f9b5078edcde49c3df99bda1bcf89cf5157fd2",
+      "installedAt": "2026-11-05T12:35:11.336Z",
+      "updatedAt": "2026-11-05T12:35:11.336Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "droid",
+    "gemini-cli",
+    "github-copilot",
+    "kilo",
+    "kimi-code-cli",
+    "opencode",
+    "pi",
+    "warp",
+    "zed"
+  ]
+}
