@@ -141,7 +141,8 @@ done
 ln -sfn "$DOTFILES/agents/AGENTS.md" ~/.claude/CLAUDE.md
 ln -sfn "$DOTFILES/claude/settings.json" ~/.claude/settings.json
 ln -sfn "$DOTFILES/agents/skills" ~/.claude/skills
-ln -sfn "$DOTFILES/agents/rules" ~/.claude/rules
+# Rules are not linked into ~/.claude/rules: Claude would load them in full every
+# session on top of the index in AGENTS.md. Agents read them on demand instead.
 
 # User-scope MCP servers live in ~/.claude.json, which also holds session state,
 # so they are registered with the CLI instead of symlinked.

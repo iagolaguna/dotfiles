@@ -40,7 +40,7 @@ dotfiles/
 | `better-tmux/` | `~/.config/better-tmux` |
 | `agents/` | `~/.agents` |
 | `agents/AGENTS.md` | `~/.claude/CLAUDE.md`, `~/.config/opencode/AGENTS.md` |
-| `agents/rules`, `agents/skills` | `~/.claude/rules`, `~/.claude/skills` |
+| `agents/skills` | `~/.claude/skills` (rules are read on demand, not linked) |
 | `claude/settings.json` | `~/.claude/settings.json` |
 | `opencode/opencode.json` | `~/.config/opencode/opencode.json` |
 | `cursor/mcp.json` | `~/.cursor/mcp.json` |
