@@ -38,6 +38,15 @@
       "skillFolderHash": "69f9b5078edcde49c3df99bda1bcf89cf5157fd2",
       "installedAt": "2026-11-05T12:35:11.336Z",
       "updatedAt": "2026-11-05T12:35:11.336Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
+      "installedAt": "2026-11-06T00:52:05.090Z",
+      "updatedAt": "2026-11-06T00:52:05.090Z"
     }
   },
   "dismissed": {
@@ -49,6 +58,7 @@
     "codex",
     "cursor",
     "droid",
+    "fx",
     "gemini-cli",
     "github-copilot",
     "kilo",
