@@ -195,7 +195,7 @@
   "enabledPlugins": {
     "figma@claude-plugins-official": true,
     "rust-analyzer-lsp@claude-plugins-official": true,
-    "superpowers@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": false,
     "fullstack-dev-skills@fullstack-dev-skills": true,
     "vercel@claude-plugins-official": true,
     "neon-postgres@neon": true
