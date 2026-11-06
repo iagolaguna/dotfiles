@@ -13,7 +13,7 @@
       "Bash(rm -rf :*)"
     ]
   },
-  "model": "sonnet",
+  "model": "opus",
   "hooks": {
     "SessionStart": [
       {
@@ -197,7 +197,8 @@
     "rust-analyzer-lsp@claude-plugins-official": true,
     "superpowers@claude-plugins-official": true,
     "fullstack-dev-skills@fullstack-dev-skills": true,
-    "vercel@claude-plugins-official": true
+    "vercel@claude-plugins-official": true,
+    "neon-postgres@neon": true
   },
   "extraKnownMarketplaces": {
     "fullstack-dev-skills": {
