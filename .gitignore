@@ -5,3 +5,8 @@ kitty/kitty-local.conf
 .claude/settings.local.json
 agents/skills/synced/
 *.bak
+
+# Installed from ars-agent-skills by its install.sh global
+agents/skills/commit
+agents/skills/open-pr
+agents/skills/worktree
